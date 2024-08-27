@@ -29,7 +29,7 @@ export default async function SettingsPage() {
     const { error } = await supabase
       .from('users')
       .update({ full_name: newName })
-      .eq('id', user?.id);
+      .eq('id', user?.id || "" );
     if (error) {
       console.log(error);
     }
