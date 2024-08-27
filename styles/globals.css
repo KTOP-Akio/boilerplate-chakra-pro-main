@@ -1,0 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"); 
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+option {
+  color: black;
+}
+
+p {
+  letter-spacing: 0px;
+}
+
+img {
+  pointer-events: none;
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #603CFF;
+}
+
+::selection {
+  color: white;
+  background: #603CFF;
+}
